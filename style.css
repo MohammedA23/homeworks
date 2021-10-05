@@ -1,0 +1,101 @@
+/* Mohammed Abdulaziz Ahmed Abdullah
+   1846677
+   KE
+   Second Assignment (National Day) */
+
+* {
+    padding: 0;
+	margin: 0;
+    font-size: 12pt;
+	font-family: sans-serif;
+}
+#header{
+    height: 50px;
+	background-image: url("photos/rancidbannerbg.png");
+    background-repeat: repeat-x;
+}
+#header img{
+    margin: auto;
+	display: block;
+	height: 100%;
+	width: 30%;
+}
+#heading{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: serif;
+    text-shadow: 3px 3px #999999;
+    margin: 5px;
+}
+#contentArea{
+    margin: auto;
+    position: center;
+	width: 55%;
+	height: 1150px;
+	box-shadow: 5px 5px 5px #eeeeee;
+}
+#lift-side{
+    float: left;
+    background-image: url("photos/rottenlargebg.png");
+    background-repeat: repeat-x;
+    width: 60%;
+    height: 83px;
+}
+#lift-side > img {
+	float: left;
+	height: 100%;
+	width: 40%;
+}
+#lift-side > header {
+	color: red;
+	font-weight: bold;
+	font-size: 48pt;
+    position: relative;
+    left: 25%;
+}
+#comment-section{
+    display: flex;
+    margin-top: 1em;
+    height: 1050px;
+    width: 100%;
+    flex-direction: column;
+    background-color: #EEEEEE;
+}
+.quote {
+	font-size: 13pt;
+	font-family: serif;
+}
+.comments{
+width: 90%;
+background-color: #FFFFFF;
+border-style: 2px solid #CCCCCC;
+border-radius: 12px;
+padding: 1rem;
+}
+.icon {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+#right-side{
+    float: right;
+	width: 39%;
+	height: 1150px;
+	background-image: url("photos/bg.png");
+}
+#right-side img {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+dd{
+    margin-left: 30px;
+}
+footer {
+	text-align: center;
+	width: 55%;
+	margin: auto;
+	background-color:lightgray;
+}
